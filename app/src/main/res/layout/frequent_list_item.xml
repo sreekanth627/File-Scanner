@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/fifty_dp">
+    <LinearLayout
+        android:id = "@+id/llList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/fileExtension"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/four_dp"
+        android:layout_marginRight="@dimen/forty_dp"
+        android:layout_marginTop="@dimen/four_dp"
+        android:gravity="center"
+        android:text = "csv"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/fileFrequency"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text = "2300"
+        android:gravity="center"
+        android:layout_alignParentRight="true">
+    </TextView></LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_px"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:layout_below="@id/llList"
+        android:background="@color/gray_color"/>
+
+</RelativeLayout>

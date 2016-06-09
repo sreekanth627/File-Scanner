@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/fifty_dp">
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/four_dp"
+        android:layout_marginRight="@dimen/forty_dp"
+        android:layout_marginTop="@dimen/four_dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/fileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/fileLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fileName"
+        android:textSize="10sp"
+        android:layout_marginRight="@dimen/hundred_dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/fileModifiedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fileName"
+        android:layout_alignParentRight="true">
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_px"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:layout_below="@id/fileModifiedDate"
+        android:background="@color/gray_color"/>
+
+</RelativeLayout>

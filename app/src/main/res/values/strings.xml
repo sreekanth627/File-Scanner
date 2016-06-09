@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">File Scanner</string>
+    <string name="details_text2">Welcome to File Scanner.</string>
+    <string name="details_text">Using this app you can find largest files, most frequent extensions, most recent files along with few more details in your external storage.
+     Please use Start Scan button for initiating this task. At any time, you can stop the scan using Stop scan button.</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+</resources>
